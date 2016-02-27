@@ -1,5 +1,5 @@
 @echo off
-c:\windows\microsoft.net\framework\v4.0.30319\installutil.exe XmlTimeUniqueifier.exe
+XmlTimeUniqueifier.exe -install
 
 if ERRORLEVEL 1 goto error
 echo The service has been installed
